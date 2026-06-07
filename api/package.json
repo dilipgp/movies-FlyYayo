@@ -1,0 +1,18 @@
+{
+  "name": "streamvault-api",
+  "version": "1.0.0",
+  "description": "StreamVault API - Azure Functions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "func start",
+    "build": "echo 'No build required for Node.js functions'",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
