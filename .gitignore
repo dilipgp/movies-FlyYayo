@@ -1,0 +1,98 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnp/
+.pnp.js
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+.vite/
+.next/
+out/
+
+# =========================
+# Environment files (CRITICAL - secrets)
+# =========================
+.env
+.env.*
+!.env.example
+!.env.template
+*.local
+
+# =========================
+# Azure Functions
+# =========================
+api/.func/
+api/node_modules/
+
+# =========================
+# Vercel
+# =========================
+.vercel/
+
+# Prevent accidental Vercel config secrets exposure
+vercel.json
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Testing
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# Cache / Misc
+# =========================
+*.tsbuildinfo
+.eslintcache
+.cache/
+.turbo/
+
+# =========================
+# Security sensitive files
+# =========================
+*.pem
+*.key
+*.cert
+*.p12
+
+# Explicit secret dumps protection
+secrets.txt
+secret.txt
+*.secret
+
+# =========================
+# Uploads
+# =========================
+public/uploads/*
+!public/uploads/.gitkeep
